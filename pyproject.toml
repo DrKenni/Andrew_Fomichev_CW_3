@@ -1,13 +1,17 @@
 [tool.poetry]
-name = "cw"
+name = "CW"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Andrew <tanyromacka1@mail.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.30.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
 
 [build-system]
 requires = ["poetry-core"]
