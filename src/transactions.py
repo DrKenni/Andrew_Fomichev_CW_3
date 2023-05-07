@@ -1,4 +1,4 @@
-class Transaction():
+class Transactions():
     """Создает экземпляры с данными о транзакции"""
     def __init__(self, id_trans, date_trans, state, amount, description, to, currency, from_anyone=None):
         self.id_trans = id_trans

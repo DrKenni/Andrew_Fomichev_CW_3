@@ -1,5 +1,5 @@
 import json
-from Class_ import Transaction
+from transactions import Transactions
 from datetime import datetime
 
 
@@ -60,7 +60,7 @@ def make_return(last_five_trans):
             to = check_from("to")
             from_anyone = check_from("from")
             currency = operation["operationAmount"]["currency"]["name"]
-            transaction = Transaction(id_trans, date_trans, state, amount, description, to, currency, from_anyone)
+            transaction = Transactions(id_trans, date_trans, state, amount, description, to, currency, from_anyone)
             processed_trans.append(transaction)
         except:
             continue
