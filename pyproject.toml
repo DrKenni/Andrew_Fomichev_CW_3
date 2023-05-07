@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "CW"
 version = "0.1.0"
-description = ""
+description = "The feature that show last 5 executed operations"
 authors = ["Andrew <tanyromacka1@mail.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.30.0"
+
 
 
 [tool.poetry.group.dev.dependencies]
