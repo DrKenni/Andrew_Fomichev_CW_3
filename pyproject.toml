@@ -1,17 +1,18 @@
 [tool.poetry]
 name = "CW"
 version = "0.1.0"
-description = "The feature that show last 5 executed operations"
+description = "Function showing the last 5 completed operations"
 authors = ["Andrew <tanyromacka1@mail.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10.6"
 
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
