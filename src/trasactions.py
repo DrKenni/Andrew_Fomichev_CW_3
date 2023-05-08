@@ -11,7 +11,7 @@ class Transactions():
         self.from_anyone = from_anyone
 
     def __repr__(self):
-        return f"Транзакция {self.id_trans}№"
+        return f"Транзакция №{self.id_trans}"
 
     def __str__(self):
         return "Транзакция"
@@ -28,4 +28,4 @@ class Transactions():
         """Выводит информанию на основе полученных данных о транзакции"""
         return (f"{self.date} {self.description}\n"
                 f"{self.from_anyone} -> {self.to}\n"
-                f"{self.amount} {self.currency}\n")
+                f"{self.amount} {self.currency}\n\n")
