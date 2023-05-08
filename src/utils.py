@@ -1,6 +1,6 @@
 import json
 
-from src.trasactions import Transactions
+from src.transactions import Transactions
 from datetime import datetime
 
 

@@ -1,4 +1,4 @@
-import src.trasactions
+import src.transactions
 from src.utils import *
 from src.main import FILE_TRANSACTION
 
