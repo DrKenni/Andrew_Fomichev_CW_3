@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "CW"
+name = "Widget"
 version = "0.1.0"
 description = "Function showing the last 5 completed operations"
 authors = ["Andrew <tanyromacka1@mail.ru>"]
