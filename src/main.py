@@ -1,5 +1,5 @@
 import os
-from utils import *
+from src.utils import *
 # Абсолютный путь до json файла
 ROOT_FILE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILE_TRANSACTION = os.path.join(ROOT_FILE, "data", 'operations.json')
