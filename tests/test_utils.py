@@ -20,7 +20,7 @@ def test_make_return():
     trans_list = get_inf(FILE_TRANSACTION)
     filt_list = filtering_list(trans_list)
     for item in make_return(filt_list):
-        assert type(item) is src.trasactions.Transactions
+        assert type(item) is src.transactions.Transactions
 
     assert make_return(trans_list)[0].get_id() == 441945886
     assert make_return(trans_list)[0].get_date() == "26.08.2019"

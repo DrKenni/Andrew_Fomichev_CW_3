@@ -1,5 +1,4 @@
 import json
-
 from src.transactions import Transactions
 from datetime import datetime
 
