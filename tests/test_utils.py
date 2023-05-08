@@ -22,11 +22,11 @@ def test_make_return():
     for item in make_return(filt_list):
         assert type(item) is src.transactions.Transactions
 
-    assert make_return(trans_list)[0].get_id() == 441945886
-    assert make_return(trans_list)[0].get_date() == "26.08.2019"
-    assert make_return(trans_list)[0].get_information() == ('26.08.2019 Перевод организации\n'
-                                                            'Maestro 1596 83** **** 5199 -> Счет **9589\n'
-                                                            '31957.58 руб.\n\n')
-    assert str(make_return(trans_list)[0]) == "Транзакция"
-    assert make_return(trans_list)[0].__repr__() == f"Транзакция №441945886"
+    assert make_return(filt_list)[0].get_id() == 863064926
+    assert make_return(filt_list)[0].get_date() == "08.12.2019"
+    assert make_return(filt_list)[0].get_information() == ('08.12.2019 Открытие вклада\n'
+                                                            'Вклад в -> Счет **5907\n'
+                                                            '41096.24 USD\n')
+    assert str(make_return(filt_list)[0]) == "Транзакция"
+    assert make_return(filt_list)[0].__repr__() == f"Транзакция №863064926"
 
