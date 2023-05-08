@@ -28,4 +28,4 @@ class Transactions():
         """Выводит информанию на основе полученных данных о транзакции"""
         return (f"{self.date} {self.description}\n"
                 f"{self.from_anyone} -> {self.to}\n"
-                f"{self.amount} {self.currency}\n\n")
+                f"{self.amount} {self.currency}\n")
